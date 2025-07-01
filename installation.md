@@ -86,5 +86,4 @@ Update/install pip, virtualenv and ensure that no global Python pacgages are use
    ```bash
    sudo apt install nodejs npm
    sudo npx playwright install-deps
-   
    ```
