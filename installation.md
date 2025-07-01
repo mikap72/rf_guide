@@ -62,7 +62,7 @@ Update/install pip, virtualenv and ensure that no global Python pacgages are use
 
 ## Install Robot Framework and Browser Library
 
-   `NOTE:-` inside `.venv`
+   `NOTE:` inside `.venv`
 
    Robot Framework
    
