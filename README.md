@@ -1,4 +1,3 @@
-# rf_guide
-Guide for Robot Framework with VS Code and WSL2
+# Guide for Robot Framework with VS Code and WSL2
 
-Installation guide done.
+Installation guide done. See: [installation.md](./installation.md)
