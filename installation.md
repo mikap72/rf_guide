@@ -4,14 +4,20 @@
 
 - WSL
 
-   Install:
+   Install in PowerShell:
 
    ```bash
       wsl --install -d Ubuntu-24.04
    ```
 
 - VS Code (Microsoft marketplace)
-- Python 3.12 or greater (Microsoft Marketplace)
+- GitBash (optional)
+
+   In GitBash (Win11):
+    ```
+       git config --global user.name "Your Name"
+       git config --global user.email "your@email.com"
+    ```
 
 ## Start VS Code from WSL
 Make project directory and Open VS Code
@@ -28,7 +34,11 @@ Make project directory and Open VS Code
 
    ```bash
    touch .gitignore
+   git init
    ```
+
+   `NOTE:` your git identity should be already configured in GitBash.
+
 
 ## Create python virtual environment
 
