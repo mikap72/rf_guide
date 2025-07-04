@@ -1,3 +1,35 @@
+I'll create a bash script that runs Robot Framework tests and sends the output to a subfolder.This bash script provides a complete solution for running Robot Framework tests with organized output management. Here's what it does:
+
+**Key Features:**
+- Creates timestamped subfolders for each test run (e.g., `results/run_20240704_143022`)
+- Generates all standard Robot Framework output files (log, report, output XML, debug)
+- Includes error checking and colored status messages
+- Creates a test summary file for each run
+- Maintains a symbolic link to the latest test run
+
+**Usage:**
+1. Make the script executable: `chmod +x robot_test.sh`
+2. Run it: `./robot_test.sh`
+
+**Directory Structure:**
+```
+project/
+├── robot_test.sh
+├── tests/           # Your .robot test files go here
+└── results/         # Output directory
+    ├── run_20240704_143022/
+    │   ├── log.html
+    │   ├── report.html
+    │   ├── output.xml
+    │   ├── debug.txt
+    │   └── test_summary.txt
+    └── latest -> run_20240704_143022/
+```
+
+The script automatically creates the necessary directories and provides helpful feedback about what's happening during execution. Each test run gets its own subfolder with a timestamp, making it easy to track and compare results over time.
+
+
+
 Perfect! I've updated the script to accept a parameter for specifying which Robot Framework file or directory to run. Here are the key improvements:
 
 **New Features:**
