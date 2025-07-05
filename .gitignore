@@ -2,3 +2,4 @@
 .venv
 claude_run_all_robot.md
 run_all_robot.sh
+.vscode/settings.json
