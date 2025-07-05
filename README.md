@@ -44,7 +44,7 @@ source ~/.bash_profile
 
 Restart VS Code and WSL.
 
-Now you camn open a HTML file in Edge by typing following command in VS Code's Integrated Terminal: `view <path to html file>`. You can open any folder in the VS Code Terminal by right clicking it in the `Explorer` file tree view and selecting `Open in Integrated Terminal`.
+Now you can open a HTML file in Edge by typing following command in VS Code's Integrated Terminal: `view <path to html file>`. You can open any folder in the VS Code Terminal by right clicking it in the `Explorer` file tree view and selecting `Open in Integrated Terminal`.
 
 ## Xpath related tools
 
