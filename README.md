@@ -1,10 +1,30 @@
 # Guide for Robot Framework with VS Code and WSL2
 
 # Installation
+
 Installation guide done. See: [installation.md](./installation.md)
 
 ## Running Bash Scripts
 
+`NOTE`: Always inside `(.venv)`
+
+### Activate and deactivate virtual environment
+
+In project folder:
+
+Activate:
+
+```bash
+   source .venv/bin/activate
+```
+
+Deactivate:
+
+```bash
+   source .venv/bin/activate
+```
+
+### Run all robot files in /robot folder
 
 All robot framework scripts. In project folder:
 
@@ -12,7 +32,9 @@ All robot framework scripts. In project folder:
    ./run_robot.sh
 ```
 
-Only one Robot Framework script:
+### Run single robot file in /robot folder
+
+Only one Robot Framework script. In project folder:
 
 ```bash
    ./run_robot.sh ./robot/<robot file.robot>

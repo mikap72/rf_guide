@@ -87,3 +87,17 @@ Update/install pip, virtualenv and ensure that no global Python pacgages are use
    sudo apt install nodejs npm
    sudo npx playwright install-deps
    ```
+
+   ## Workspace settings for VS Code
+
+   In project folder in WSL, create `settings.json` with following content:
+
+   ```json
+   {
+      "robot.pythonpath": ["${workspaceFolder}/.venv/Scripts/python.exe", "${workspaceFolder}/libraries"],
+      "robot.language-server.python": "/home/mikap/projects/rf_guide/.venv/bin/python3.12",
+      "robot.python.executable": "${workspaceFolder}/.venv/Scripts/python.exe",
+   }
+   ```
+
+   `NOTE`: This is needed for VS Code to have correct Python path to find Browser Library (in `.venv`).

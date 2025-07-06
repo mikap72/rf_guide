@@ -1,0 +1,37 @@
+{"level":30,"time":"2025-07-06T13:31:58.026Z","pid":27488,"hostname":"ASUSAI","msg":"Listening on 127.0.0.1:57383"}
+(node:27488) DeprecationWarning: Calling start() is no longer necessary. It can be safely omitted.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+{"level":30,"time":"2025-07-06T13:31:58.112Z","pid":27488,"hostname":"ASUSAI","msg":"Start of node method newPage"}
+{"level":30,"time":"2025-07-06T13:31:58.113Z","pid":27488,"hostname":"ASUSAI","msg":"currentBrowser: undefined"}
+{"level":30,"time":"2025-07-06T13:31:58.566Z","pid":27488,"hostname":"ASUSAI","msg":"Changed active context"}
+{"level":30,"time":"2025-07-06T13:31:58.693Z","pid":27488,"hostname":"ASUSAI","msg":"Video path: undefined"}
+{"level":30,"time":"2025-07-06T13:31:58.693Z","pid":27488,"hostname":"ASUSAI","msg":"Changed active page"}
+{"level":30,"time":"2025-07-06T13:31:59.461Z","pid":27488,"hostname":"ASUSAI","msg":"End of node method newPage"}
+{"level":30,"time":"2025-07-06T13:31:59.466Z","pid":27488,"hostname":"ASUSAI","msg":"Start of node method click"}
+{"level":30,"time":"2025-07-06T13:31:59.466Z","pid":27488,"hostname":"ASUSAI","msg":"Strict mode is enabled, find Locator with \"type\" in page."}
+{"level":30,"time":"2025-07-06T13:31:59.705Z","pid":27488,"hostname":"ASUSAI","msg":"End of node method click"}
+{"level":30,"time":"2025-07-06T13:31:59.710Z","pid":27488,"hostname":"ASUSAI","msg":"Start of node method typeText"}
+{"level":30,"time":"2025-07-06T13:31:59.710Z","pid":27488,"hostname":"ASUSAI","msg":"Strict mode is enabled, find Locator with .action-email in page."}
+{"level":30,"time":"2025-07-06T13:31:59.796Z","pid":27488,"hostname":"ASUSAI","msg":"End of node method typeText"}
+{"level":30,"time":"2025-07-06T13:31:59.798Z","pid":27488,"hostname":"ASUSAI","msg":"Start of node method getText"}
+{"level":30,"time":"2025-07-06T13:31:59.798Z","pid":27488,"hostname":"ASUSAI","msg":"Strict mode is enabled, find Locator with .action-email in page."}
+{"level":30,"time":"2025-07-06T13:31:59.825Z","pid":27488,"hostname":"ASUSAI","msg":"Retrieved text for element .action-email containing fake@email.com"}
+{"level":30,"time":"2025-07-06T13:31:59.825Z","pid":27488,"hostname":"ASUSAI","msg":"End of node method getText"}
+{"level":30,"time":"2025-07-06T13:31:59.829Z","pid":27488,"hostname":"ASUSAI","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-07-06T13:31:59.832Z","pid":27488,"hostname":"ASUSAI","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-07-06T13:31:59.834Z","pid":27488,"hostname":"ASUSAI","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-07-06T13:31:59.835Z","pid":27488,"hostname":"ASUSAI","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-07-06T13:31:59.837Z","pid":27488,"hostname":"ASUSAI","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-07-06T13:31:59.838Z","pid":27488,"hostname":"ASUSAI","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-07-06T13:31:59.841Z","pid":27488,"hostname":"ASUSAI","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-07-06T13:31:59.842Z","pid":27488,"hostname":"ASUSAI","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-07-06T13:31:59.844Z","pid":27488,"hostname":"ASUSAI","msg":"Changed active context"}
+{"level":30,"time":"2025-07-06T13:31:59.844Z","pid":27488,"hostname":"ASUSAI","msg":"Changing current active page: page=42421cc9-7d85-480c-8bad-2b9d76a9d8d4"}
+{"level":30,"time":"2025-07-06T13:31:59.844Z","pid":27488,"hostname":"ASUSAI","msg":"Changed active page"}
+{"level":30,"time":"2025-07-06T13:31:59.845Z","pid":27488,"hostname":"ASUSAI","msg":"Start of node method closeContext"}
+{"level":30,"time":"2025-07-06T13:31:59.849Z","pid":27488,"hostname":"ASUSAI","msg":"Removed page=d5eb11d5-4fac-4879-89c6-62a988afa105 from context=7ab4032d-da39-4a21-af27-1e11456c3479 page stack"}
+{"level":30,"time":"2025-07-06T13:31:59.852Z","pid":27488,"hostname":"ASUSAI","msg":"End of node method closeContext"}
+{"level":30,"time":"2025-07-06T13:31:59.855Z","pid":27488,"hostname":"ASUSAI","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-07-06T13:31:59.855Z","pid":27488,"hostname":"ASUSAI","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-07-06T13:31:59.876Z","pid":27488,"hostname":"ASUSAI","msg":"Start of node method closeAllBrowsers"}
+{"level":30,"time":"2025-07-06T13:31:59.926Z","pid":27488,"hostname":"ASUSAI","msg":"End of node method closeAllBrowsers"}
